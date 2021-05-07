@@ -1,0 +1,159 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+nav {
+    
+    align-items: flex-end;
+    font-size: 13px;
+    height: 48px;
+    justify-content: flex-end;
+    /* position: relative; */
+    height: 48px;
+    float: right;
+    margin-left: 75%;
+}
+
+nav ul {
+    content: '';
+    /* display: inline; */
+    position: relative;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+nav ul li {
+    float: left;
+
+  }
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+  }
+  
+  nav ul li:last-child {
+    margin-right: auto;
+  }
+
+p {
+    text-align: center;
+    margin: auto; 
+}
+
+a {
+   
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.nav_item {
+    vertical-align: middle;
+    align-items: flex-end;
+    float: right;
+}
+
+.search {
+    margin: auto;
+    margin-top: 1rem;
+    padding: 10px;
+    min-width: 400px;
+    /* border: none; */
+    /* word-wrap: break-word; */
+    display: flex;
+    border-radius: 20px;
+    border-color: #c0c0c0;
+    border-top-color: #c0c0c0;
+    border-style:solid;
+    /* background-image: url('/images/search_icon.png'); */
+    background-image: url('search_icon.png');
+    
+    background-position: 5px ;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding-left: 30px;
+}
+
+.search:active {
+    border-radius: 20px;
+    
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    opacity: 50%;
+}
+
+.search:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    opacity: 50%;
+    /* transition: all 0.2s ease-out; */
+}
+
+.search:focus {
+    border-radius: 20px;
+}
+
+
+.nic {
+    border-color: red;
+}
+
+.nic:active {
+    border: none;
+}
+
+.nic:active {
+    border: none;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: #DCDCDC;
+    border: none;
+    border-radius: 3px;
+    /* color: white; */
+    margin: 11px 4px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+  }
+
+  .button:hover {
+      text-decoration: none;
+  }
+
+  .button:visited {
+      text-decoration: none;
+  }
