@@ -14,7 +14,6 @@ nav {
     font-size: 13px;
     height: 48px;
     justify-content: flex-end;
-    /* position: relative; */
     height: 48px;
     float: right;
     margin-left: 75%;
@@ -38,15 +37,23 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 8px;
+    color: black;
 }
 
 nav ul li:first-child {
     margin-right: auto;
   }
   
-  nav ul li:last-child {
+nav ul li:last-child {
     margin-right: auto;
   }
+
+.nav_item {
+    vertical-align: middle;
+    align-items: flex-end;
+    float: right;
+}
+
 
 p {
     text-align: center;
@@ -72,11 +79,6 @@ a:hover {
     margin-top: 1rem;
 }
 
-.nav_item {
-    vertical-align: middle;
-    align-items: flex-end;
-    float: right;
-}
 
 .search {
     margin: auto;
@@ -150,10 +152,89 @@ a:hover {
     font-size: 16px;
   }
 
-  .button:hover {
+.button:hover {
+      text-decoration: none;
+      box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
+      /* opacity: 50%; */
+      color: #000000;
+  }
+
+.korzystaj {
+      padding: 1em;
+  }
+
+.button:visited {
       text-decoration: none;
   }
 
-  .button:visited {
-      text-decoration: none;
+.footer1 {
+    background-color: silver;
+    border-bottom: black;
+    border-bottom: 3px;
+    padding: 1em;
+    width: 100%;
+    position: relative;
+    justify-content:left;
+    float: left;
+    margin: 0;
   }
+
+  .footer2 {
+    background-color: silver;
+    color: black;
+    position: relative;
+    /* align-items:flex-start; */
+    font-size: 13px;
+    height: 48px;
+    justify-content:left;
+    height: 48px;
+    float: left;
+    padding: 1em;
+    width: 100%;
+    margin-top: auto;
+   }
+
+   .footer2:hover {
+       color: black;
+   }
+
+   .footer2:visited {
+       color: black;
+   }
+
+
+   .footer2 ul {
+    /* content: ''; */
+    display: inline;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+
+
+  .footer2 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer2 ul li a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer2 ul li a:visited {
+    text-decoration: none;
+  }
+
+  .footer2 ul li a:hover {
+    text-decoration: underline;
+  }
+
+   .footer2 ul li {
+    float:left;
+    padding: 10px;
+
+  }
+
